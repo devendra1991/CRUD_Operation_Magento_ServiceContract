@@ -10,13 +10,11 @@
     ],
     "version": "1.2.2",
     "type": "magento2-module",
-    "require": {
-	 "php": "~5.6.0|~7.*.*"
-    },
+    "require": {},
     "repositories": [
       {
          "type": "git",
-         "url": "https://bitbucket.org/thamotharan190685/ordercontroller"
+         "url": "https://github.com/devendra1991/CRUD_Operation_Magento_ServiceContract"
       }
     ],
     "autoload": {
@@ -26,8 +24,6 @@
         "psr-4": {
             "Devendra\\Promotion\\": ""
         }
-    },
-    "minimum-stability":"dev",
-    "prefer-stable": true
+    }
 }
 
