@@ -1,4 +1,8 @@
 <?php
+/**
+ * Copyright © Devendra, Inc. All rights reserved.
+ * See COPYING.txt for license details.
+ */
 namespace Devendra\Promotion\Controller\Index;
 
 use Magento\Framework\App\Action\Action;
@@ -24,7 +28,6 @@ class Save extends Action
      */
     private $modelFactory;
 
-
     /**
      * Save constructor.
      * @param Context $context
@@ -42,8 +45,6 @@ class Save extends Action
         $this->modelFactory = $modelFactory;
         $this->modelRepositoryInterface = $modelRepositoryInterface;
         return parent::__construct($context);
-
-
     }
 
     /**
@@ -73,7 +74,6 @@ class Save extends Action
             "condition" => "1"
         ];
         $objData = $this->modelFactory->addData($data);
-
 
         try{
             $data = $this->modelRepositoryInterface->save($objData); // Service Contract

@@ -1,4 +1,8 @@
 <?php
+/**
+ * Copyright © Devendra, Inc. All rights reserved.
+ * See COPYING.txt for license details.
+ */
 namespace Devendra\Promotion\Api\Data;
 
 use Magento\Framework\Api\SearchResultsInterface;

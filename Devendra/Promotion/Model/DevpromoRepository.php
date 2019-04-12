@@ -1,4 +1,8 @@
 <?php
+/**
+ * Copyright © Devendra, Inc. All rights reserved.
+ * See COPYING.txt for license details.
+ */
 namespace Devendra\Promotion\Model;
 
 use Magento\Framework\Exception\CouldNotSaveException;
@@ -6,13 +10,25 @@ use Magento\Framework\Exception\NoSuchEntityException;
 
 class DevpromoRepository implements \Devendra\Promotion\Api\DevpromoRepositoryInterface
 {
+    /**
+     * @var DevpromoFactory
+     */
     private $devpromoFactory;
+    /**
+     * @var ResourceModel\Devpromo\CollectionFactory
+     */
     private $devpromoCollectionFactory;
     /**
      * @var DonationsSearchResultsInterfaceFactory
      */
     protected $searchResultsFactory;
 
+    /**
+     * DevpromoRepository constructor.
+     * @param DevpromoFactory $devPromoFactory
+     * @param ResourceModel\Devpromo\CollectionFactory $collectionFactory
+     * @param \Devendra\Promotion\Api\Data\DevpromoSearchResultsInterfaceFactory $searchResultsFactory
+     */
     public function __construct(
         \Devendra\Promotion\Model\DevpromoFactory $devPromoFactory,
         \Devendra\Promotion\Model\ResourceModel\Devpromo\CollectionFactory $collectionFactory,

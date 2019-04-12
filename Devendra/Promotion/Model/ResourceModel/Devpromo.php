@@ -12,8 +12,6 @@ use Magento\Framework\Model\ResourceModel\Db\AbstractDb;
  */
 class Devpromo extends AbstractDb
 {
-//    protected $_idFieldName = 'label_id';
-//    protected $_mainTable = 'devpromo_product_lebel';
     /**
      * Initialize resource model
      *

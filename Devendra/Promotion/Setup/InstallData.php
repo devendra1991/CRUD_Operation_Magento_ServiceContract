@@ -1,5 +1,4 @@
 <?php
-
 /**
  * Copyright © Devendra. All rights reserved.
  * See COPYING.txt for license details.

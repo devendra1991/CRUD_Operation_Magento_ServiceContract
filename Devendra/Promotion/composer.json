@@ -1,0 +1,23 @@
+{
+    "name": "Devendra_Promotion",
+    "description": "",
+    "license": "proprietary",
+    "authors": [
+        {
+            "email": "guptadevendra123@gmail.com",
+            "name": "Devendra1991"
+        }
+    ],
+    "version": "1.2.2",
+    "type": "magento2-module",
+    "minimum-stability": "dev",
+    "require": {},
+    "autoload": {
+        "files": [
+            "registration.php"
+        ],
+        "psr-4": {
+            "Experius\\DonationProduct\\": ""
+        }
+    }
+}
