@@ -10,7 +10,15 @@
     ],
     "version": "1.2.2",
     "type": "magento2-module",
-    "require": {},
+    "require": {
+	 "php": "~5.5.0|~5.6.0|~7.0.0"
+    },
+    "repositories": [
+      {
+         "type": "git",
+         "url": "https://bitbucket.org/thamotharan190685/ordercontroller"
+      }
+    ],
     "autoload": {
         "files": [
             "registration.php"
@@ -18,5 +26,8 @@
         "psr-4": {
             "Devendra\\Promotion\\": ""
         }
-    }
+    },
+    "minimum-stability":"dev",
+    "prefer-stable": true
 }
+
