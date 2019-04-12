@@ -10,7 +10,7 @@
     ],
     "version": "1.2.2",
     "type": "magento2-module",
-    "minimum-stability": "dev",
+    "minimum-stability": "stable",
     "require": {},
     "autoload": {
         "files": [
